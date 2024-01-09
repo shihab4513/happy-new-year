@@ -126,11 +126,15 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  
   /* 166.667% */
   width: 697px;
   padding-left: 126px;
-  padding-top: 24px;
+  /* padding-top: 24px; */
   /* padding-bottom: 48px; */
+}
+.primary-button{
+
 }
 
 .btn-join {
@@ -142,6 +146,24 @@ main {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  
+}
+.primary-button{
+  border: white solid 3px;
+  background-color: transparent;
+  color:white;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 16px 32px;
+  margin-left: 158px;
+  margin-bottom: 142px;
+}
+.primary-button:hover{
+  background-color: white;
+  color: #070211;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .place {
