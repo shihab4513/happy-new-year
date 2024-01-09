@@ -188,11 +188,12 @@ main {
   height: 56px;
   margin-bottom: 126px;
   margin-top: 64px;
-  
+
 }
-.coming-soon{
+
+.coming-soon {
   width: 1320px;
-height: 463px;
+  height: 463px;
   background: #FFF;
   display: flex;
   gap: 118px;
@@ -201,33 +202,38 @@ height: 463px;
   margin-top: 200px;
   margin-bottom: 110px;
 }
-.soon-column1-title1{
+
+.soon-column1-title1 {
   color: #F00;
-/* text-align: center; */
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-.soon-column1-title2{
+
+.soon-column1-title2 {
   color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
 }
-.soon-description{
+
+.soon-description {
   color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */         
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
 }
-.round-image{
+
+.round-image {
   padding: 25px 25px 25px 25px;
   object-fit: cover;
   border: #FF0000 solid 13px;
@@ -237,15 +243,98 @@ line-height: 32px; /* 160% */
   width: 364.84px;
   height: 346.84;
 }
-.soon-column3-title{
+
+.soon-column3-title {
   color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.soon-column3{
+
+.soon-column3 {
   margin-right: 50px;
- 
+
+}
+
+.holiday-sale {
+  width: 1320px;
+  height: 7335px;
+}
+
+.holiday-sale-head1 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.holiday-sale-title {
+  color: #F00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  /* padding-top: 16px; */
+  margin-bottom: 16px;
+}
+
+.holiday-sale-description {
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  /* 160% */
+}
+
+.discount {
+
+  border-radius: 16px 16px 0px 0px;
+  background: url('resources/Rectangle\ 1.png');
+
+  height: 433px;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  background-position: bottom right;
+  position: relative;
+}
+
+.discount-img {
+
+  position: absolute;
+  right: 310px;
+  bottom: 10px;
+
+  flex-shrink: 0;
+}
+
+.red-box {
+  background-image: url('resources/Rectangle\ 2.png');
+  width: 1320px;
+  height: 229px;
+  flex-shrink: 0;
+  border-radius: 16px 0px 16px 16px;
+  background: #F00;
+}
+
+.red-box {
+  position: relative;
+}
+
+.gift-box {
+
+  position: absolute;
+  bottom: 5px;
+  width: 790px;
+  height: 663px;
+
 }
