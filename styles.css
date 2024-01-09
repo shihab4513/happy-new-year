@@ -1,6 +1,9 @@
 header,main{
-  margin-left: 140px;
-  margin-right: 140px;
+  /* margin-left: 1;
+  margin-right: 140px; */
+  margin: 0 auto;
+  max-width: 1320px;
+
 }
 
 .banner{
@@ -10,7 +13,7 @@ header,main{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("resources/Banner Image.png");
     border-radius: 16px;
     background-size: cover;
-    margin: 20px 140px 120px 140px;
+    /* margin: 20px 140px 120px 140px; */
 }
 .new-year-style{
   color: #FFF;
@@ -20,10 +23,9 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-padding-top: 117px;
-padding-left: 131px;
-padding-right: 130px;
-padding-bottom: 15px;
+justify-content: center;
+
+  padding: 117px 130px 15px 131px;
 }
 .celebration-style{
   color: #FFF;
@@ -35,9 +37,95 @@ font-weight: 900;
 line-height: 95px; /* 131.944% */
 width: 632px;
 text-align: center;
-padding-left: 344px;
-padding-right: 344px;
-padding-bottom: 117px;
-padding-top: 0px;
+
+padding: 0px 344px 117px 344px;
 
 }
+/* .new-year{
+  margin-left: 399px;
+  margin-right: 398.1px;
+} */
+.off-65{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 120px;
+}
+.holiday-deal{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 48px;
+}
+.All-category{
+  color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 16px;
+}
+.new-year-photo{
+   padding-left: 258px;
+   padding-right: 258px;
+
+   width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+}
+.Party{
+  width: 1320px;
+height: 600px;
+flex-shrink: 0;
+background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("resources/Vectorrr.png");
+display: flex;
+justify-content: space-between;
+margin-top: 120px;
+
+}
+.party-title{
+  color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+width: 642px;
+padding-left: 126px;
+padding-top: 126px;
+}
+.party-description{
+  color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+width: 697px;
+padding-left: 126px;
+padding-top: 24px;
+/* padding-bottom: 48px; */
+}
+.btn-join{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+
