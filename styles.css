@@ -260,7 +260,7 @@ main {
 
 .holiday-sale {
   width: 1320px;
-  height: 7335px;
+  height: 950px;
 }
 
 .holiday-sale-head1 {
@@ -294,6 +294,7 @@ main {
   font-weight: 500;
   line-height: 32px;
   /* 160% */
+  margin-bottom: 64px;
 }
 
 .discount {
@@ -306,6 +307,7 @@ main {
   flex-shrink: 0;
   background-position: bottom right;
   position: relative;
+  
 }
 
 .discount-img {
@@ -324,6 +326,7 @@ main {
   flex-shrink: 0;
   border-radius: 16px 0px 16px 16px;
   background: #F00;
+ 
 }
 
 .red-box {
@@ -337,4 +340,22 @@ main {
   width: 790px;
   height: 663px;
 
+}
+.portfolio{
+  width: 1320px;
+  height: 950px;
+  margin-top: 120px;
+}
+.image-first-row{
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.image-second-row{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 24px;
+}
+.portfolio-img{
+  padding-right: 24px;
 }
