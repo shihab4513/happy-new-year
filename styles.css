@@ -127,5 +127,42 @@ font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
 }
+.place{
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+margin-top: 120px;
 
 
+}
+.place-text{
+  color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+width: 549px;
+height: 168px;
+padding-left: 385px;padding-top: 100px;padding-right: 386px;
+}
+#red{
+  color: #F00;
+}
+.btn-design{
+  display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F00;
+/* padding: 48px 577px 110px 576px; */
+width: 167px;
+height: 56px;
+margin-bottom: 126px;
+margin-top: 64px;
+}
